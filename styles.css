@@ -5,7 +5,7 @@
 
 .body{
     display: flex;
-    flex: 1;
+    flex: 1 1 auto;
     flex-direction: column;
 }
 
@@ -91,14 +91,6 @@ a {
     color: #F9FAF8;
 }
 
-.signup-container button {
-    background-color: #3882F6;
-}
-
-.signup-container {
-    background-color: #3882F6;
-}
-
 
 .information h2 {
     font-size: 36px;
@@ -125,4 +117,87 @@ button:hover {
     cursor: pointer;
     opacity: 70%;
     transition: 300ms;
+}
+
+.information {
+    padding: 20pX 500px 100px 500PX;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+}
+
+.information h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.information img {
+    width: 200px;
+    display: flex;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 3px;
+    border-radius: 13px;
+    margin-bottom: 10px;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 45px;
+}
+
+.img-container p {
+    text-align: center;
+    width: 200px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;    
+    padding: 130px 500px;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.review {
+    font-weight: 300;
+    flex: 0;
+}
+
+.mj-span {
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    width: 500px;
+    align-self: flex-end;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    padding: 130px 500px;
+    font-weight: 300;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.signup-container button {
+    background-color: #3882F6;
+}
+
+.signup-container {
+    background-color: #3882F6;
+    width: 1000px;
+    padding: 30px 90px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
 }
